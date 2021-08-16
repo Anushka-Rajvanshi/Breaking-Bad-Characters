@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(#191c0d, #315e41);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.logoDiv {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 18%;
+}
+
+.searchBar {
+    width: 70%;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 0.5% 1%;
+    background-color: #bdd4b0;
+    color: #315e41;
+}
+
+.searchBar::placeholder {
+    color: #315e41;
+}
+
+.formLabel {
+    color: #fbfcfb;
+    font-size: 2rem;
+    margin-right: 2%;
+}
+
+.filterLabel {
+    color: #fbfcfb;
+    font-size: 1.5rem;
+}
+
+.formRow {
+    margin: 20px 1%;
+    text-align: center;
+}
+
+.page {
+    margin: 40px auto 0px;
+    text-align: center;
+    color: #fbfcfb;
+    padding-bottom: 60px;
+}
+
+.card {
+    border: 3px solid transparent;
+    margin: 25px 0;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.card:hover {
+    border: 3px solid #fbfcfb;
+    cursor: pointer;
+}
+
+.characterImg {
+    height: 340px;
+    width: 260px;
+    border-radius: 15px;
+}
+
+.characterName {
+    font-size: 18px;
+}
+
+.noResultImg {
+    margin: 172px auto;
+    max-width: 65%;
+
+}
+
+.backDiv {
+    text-align: left;
+    padding-left: 15%;
+    margin: 5% auto;
+}
+
+.backBtn {
+    color: #191c0d;
+    background-color: #bdd4b0;
+}
+
+.singleCharacterImg {
+    width: 40%;
+}
+
+.row {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.page h4 {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 800px) {
+    .characterImg {
+        height: 270px;
+        width: auto;
+    }
+
+    .logo {
+        width: 22%
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .characterImg {
+        height: 190px;
+        width: auto;
+    }
+
+    .logo {
+        width: 30%
+    }
+
+    .backBtn {
+        transform: scale(0.7);
+    }
+}
